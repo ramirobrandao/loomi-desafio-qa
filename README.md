@@ -2,13 +2,13 @@
 
 Automação de testes para o site Kasa.live utilizando Cypress e JavaScript. 
 
--Utilização de Custom Commands para maior flexibilidade e manutenção do código ✅/
-Geração de relatórios ricos com gráficos e imagens utilizando a biblioteca do Mochawesome ✅/
--Implementação da biblioteca Faker para geração de massas de dados dinâmicas ⌛️/
--Utilização de variáveis de ambiente (env secrets) para proteger credenciais sensíveis, garantindo a segurança do código ⌛️/
+-Utilização de Custom Commands para maior flexibilidade e manutenção do código ✅  
+Geração de relatórios ricos com gráficos e imagens utilizando a biblioteca do Mochawesome ✅  
+-Implementação da biblioteca Faker para geração de massas de dados dinâmicas ⌛️  
+-Utilização de variáveis de ambiente (env secrets) para proteger credenciais sensíveis, garantindo a segurança do código ⌛️  
 -configurada uma pipeline (GitHub Actions) de integração contínua CI/CD 
-que executa automaticamente todos os testes do projeto quando é realizado um push na branch main ou quando um pull request é aberto. ⌛️/
--Adoção de padrões consistentes de nomenclatura para commits ⌛️/
+que executa automaticamente todos os testes do projeto quando é realizado um push na branch main ou quando um pull request é aberto ⌛️    
+-Adoção de padrões consistentes de nomenclatura para commits ⌛️  
 
 O projeto foi organizado usando estruturas Describe com cenários de sucesso e erro validando os principais fluxos do KasaLive: Login, Favoritar, Buscar Partidas, Melhores Momentos e Calendário.
 
